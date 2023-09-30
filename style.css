@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #fffafa;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    position:sticky;
+    top:0px;
+    background-color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:2em;
+    padding-right:2em;
+    margin-top:1rem;
+}
+.nav-list{
+    display:flex;
+    gap: 20px;
+}
+.nav-list>a{
+    font-family:Poppins;
+    font-weight: 400;
+    color:#707085;
+}
+.nav-whole-search{
+    display: flex;
+    justify-content: space-between;
+    gap:7px;
+    align-items: center;
+}
+.nav-search{
+    background-color:white;
+    border-radius:15px;
+    border:1px solid #f2f2f2;  
+    padding-inline:10px;
+   }
+   .nav-whole-search>input{
+     width:40vw;
+    height:50px;
+}
+.nav-search>input{
+    border:none;
+    background:transparent;
+}
+#button{
+    background-color:#f94a3d;
+    width:6em;
+    color:white;
+    padding:7px;
+    border-radius:9px;
+    font-family: Poppins;
+    font-weight: 400;
+    }
+.about-us{
+    width:80vw;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-us1{
+    width:80vw;
+    margin:auto;
+}
+.main{
+    width:80vw;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main>h2{
+    font-weight: 600;
+    font-size: 48px;
+    color:#212244 ;
+}
+.main-list{
+    margin-top: 25px;
+    display: flex;
+    gap: 30px;
+}
+.main-list>a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.main-card{
+    width:80vw;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.card{
+    margin-top: 19px;
+    width:300px;
+    height:350px;
+    border:2px solid transparent;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px;
+}
+.card:hover{
+    color:#fed93b ;
+}
+.card>h6{
+    font-size:20px;
+    font-weight:600;
+    color:#212244;
+}
+.card>p{
+
+    font-size:15px;
+    color:#adadb6;
+}
+.span{
+    color:#f94a3d;
+    font-weight:500;
+}
+.button{
+    border: 2px solid tomato;
+    color:#f94a3d;
+    padding:6px;
+    border-radius:7px;
+    margin-top:6px;
+}
+.button:hover{
+    background-color: #f94a3d;
+    color:white;
+}
+.review{
+    width: 80vw;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.img{
+    display: flex;
+}
+
+
+.app-info{
+    width:80vw;
+    margin:auto;
+}
+footer{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+
+.social-icon{
+    width:50px;
+    height:50px;
+    font-size:35px;;
+    background-color: black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    border-radius:15px;
+}
+#footer_row_2_col3{
+    display: flex;
+}
+.footer-table{
+    display: flex;
+
+}
+.heading{
+     margin-bottom: 80px;
+}
+
+.anchor{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+
+
